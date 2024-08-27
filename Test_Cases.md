@@ -27,5 +27,5 @@
   3. Create a CSV with the extracted data (for the purpose of simulation).
   4. Verify the structure and accuracy of the generated CSV.
 - **Expected Results**:
-- The CSV should be generated with the correct image attributes (e.g.width, height, mode)
+  - The CSV should be generated with the correct image attributes (e.g.width, height, mode)
 - **Acceptance Criteria**: 
