@@ -15,3 +15,17 @@
 - **Acceptance Criteria**: 
   - The image size remains 512x512 pixels.
   - Cells are clearly visible after thresholding.
+
+
+## Test Case 2: Validate Image Input and Output
+- **Title**: Validate Image Input and Output
+- **Description**: Ensure that the software can read a high-resolution .tif image and output some form of structured data e.g csv
+- **Preconditions**:
+- **Test Steps**:
+  1. Load the .tif image.
+  2. Simulate data extraction from the image (e.g., extracting basic metadata like image size, resolution, or pixel values).
+  3. Create a CSV with the extracted data (for the purpose of simulation).
+  4. Verify the structure and accuracy of the generated CSV.
+- **Expected Results**:
+- The CSV should be generated with the correct image attributes (e.g.width, height, mode)
+- **Acceptance Criteria**: 
