@@ -18,6 +18,7 @@
 
 
 ## Test Case 2: Validate Image Input and Output
+
 - **Title**: Validate Image Input and Output
 - **Description**: Ensure that the software can read a high-resolution .tif image and output some form of structured data e.g csv
 - **Preconditions**:
@@ -28,4 +29,19 @@
   4. Verify the structure and accuracy of the generated CSV.
 - **Expected Results**:
   - The CSV should be generated with the correct image attributes (e.g.width, height, mode)
-- **Acceptance Criteria**: 
+- **Acceptance Criteria**:
+  - The software successfully generates a CSV file with correct image metadata (e.g., width, height, and mode)
+
+## Test Case 3: Invalid Image Format Handling
+
+- **Title**: Validate Image Format Handling
+- **Description**: Ensure that the software properly handles unsupported or invalid image formats
+- **Preconditions**:
+- **Test Steps**:
+  1. Load an invalid or unsupported image format (e.g. .pdf instead of .tif).
+  2. Simulate running the image through the software.
+  3. Verify that the software properly rejects the image and throws an appropriate error.
+- **Expected Results**:
+  - The unsupported Image Format or corrupted file should be rejected
+- **Acceptance Criteria**:
+  - The software rejects the invalid image format and raises an appropriate error message
